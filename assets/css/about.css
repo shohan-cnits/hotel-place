@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-font: "Marcellus";
+    --second-font: "Jost";
+}
+/* navbar start */
+#main_navbar {
+    background: #f1f1f1;
+}
+.nav-item  a {
+   color: #000 !important;
+    font-size: 30px;
+    font-family: var(--primary-font);
+    transition: all .5s ease-in-out;
+}
+.nav-item  a:hover {
+   color: red !important;
+    font-size: 30px;
+    font-family: var(--primary-font);
+}
+.nav-item   {
+padding-left: 30px !important;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.from_nav input {
+    font-size: 20px !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.from_nav button  {
+    font-size: 20px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 10px 30px;
+    background: red !important;
+    color: #ffff;
+    transition: all .5s ease-in-out;
+}
+.from_nav button:hover  {
+    font-size: 20px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 10px 30px;
+    background: #000 !important;
+    color: #ffff;
+
+}
+/* navbar end */
+
+/* about hero start */
+#hero{
+    background: url(../image/about_hero_bg_01.jpg);
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 230px 0px;
+    object-fit: cover;
+    position: relative;
+    padding-top: 107px;
+   
+}
+#hero::before{
+    content: '';
+background: rgba(0,0,0, .5);
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+   
+}
+.hero_about_heading {
+    position: relative;
+    margin-top: 35vh;
+
+}
+.hero_about_heading p {
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    font-family: var(--second-font);
+}
+.hero_about_heading h1 {
+    text-align: center;
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 800;
+    font-family: var(--primary-font);
+    color: #ffff;
+
+}
+.hero_about_heading h4 {
+    text-align: center;
+    font-size: 23px;
+    font-family: var(--second-font);
+    color: #ffff;
+
+}
+@media (max-width: 570px) {
+    .hero_about_heading h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .hero_about_heading h4 {
+        font-size: 16px; 
+    }
+}
+
+/* about hero end */
+
+/* hotel views start */
+#hotel_views {
+    padding: 60px 0px;
+    background: #e0e0de;
+}
+.hotel_views_about p {
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 20px;
+    color: red;
+}
+.hotel_views_about h1 {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 50px;
+    line-height: 70px;
+    width: 830px;
+    height: 134px;
+    margin: auto;
+
+}
+.hotel_views_about h4 {
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 18px;
+    line-height: 35px;
+    width: 830px;
+    height: 89px;
+    margin: auto;
+
+}
+@media (max-width: 990px) {
+    .hotel_views_about h1 {
+  width: 100%;
+  height: auto;
+  font-size: 35px;
+  line-height: 50px;
+    }
+    .hotel_views_about p {
+        font-size: 16px;
+    }
+
+
+    .hotel_views_about h4 {
+        width: 100%;
+        height: auto;
+          }
+}
+/* hotel views end */
+
+/* hotel counting start */
+.about_counting_img img{
+ 
+    width: 100%;
+height: auto;
+position: relative;
+
+  
+}
+#about_counting  {
+    padding: 20px 0px;
+    background: #e0e0de;
+}
+
+/* hotel counting end */
