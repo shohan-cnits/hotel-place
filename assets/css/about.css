@@ -188,3 +188,25 @@ position: relative;
 }
 
 /* hotel counting end */
+
+
+
+/* Galler Heading Start  */
+
+  
+
+  
+.image_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+}
+
+.image_gallery img{
+    width: 100%;
+}
+  
+  
+  /* Institution Gallery End */
+  
+  
